@@ -7,6 +7,10 @@ ul {
   margin: 0 auto;
   margin-top: 20px;
 }
+p {
+  margin-bottom: 0;
+  color: rgb(90, 98, 117);
+}
 .container {
   padding: 30px 20px;
   margin: 30px auto;
@@ -57,9 +61,7 @@ ul {
 #line {
   border-left: 3px solid rgb(90, 98, 117);
 }
-p {
-  margin-bottom: 0;
-}
+
 .coder {
   text-align: center;
 }
@@ -69,4 +71,7 @@ p {
 }
 .temperature .active:hover {
   text-decoration: none;
+}
+.week-temp {
+  font-size: 16px;
 }
